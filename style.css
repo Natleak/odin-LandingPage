@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    line-height: 1.5;
+    /* line-height: 1.5; */
 }
 /* header and footer part */
 
@@ -22,8 +22,8 @@ footer{
 
 header{
     justify-content: space-between;
-    align-items: baseline;
-    padding: 0 140px;
+    align-items: center;
+    padding: 2px 220px;
 }
 .logo{
     margin: 14px 0;
@@ -63,7 +63,7 @@ footer{
     color: #f9faf8;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 140px;
+    padding: 120px 220px;
 }
 
 /* section one right part */
@@ -77,7 +77,7 @@ footer{
     display: flex;
     background-color: gray;
     height: 215px;
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -103,14 +103,54 @@ footer{
 .secondary{
     font-size: 18px;
     margin: 0;
+    color: #e5e7eb;
 }
 
 .button-one{
     display: flex;
-    background-color: #2882f6;
+    background-color: #3882f6;
     width: max-content;
     margin-top: 8px;
     padding: 6px 36px;
     border-radius: 8px;
     border: none;
+}
+
+/* 4 cards section */
+.section-two h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 42px 0;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 72px;
+    flex-wrap: wrap;
+}
+
+.container{
+    flex-direction: row;
+    width: 150px;
+    text-align: center;
+}
+.frame{
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+.text-card{
+    color: #646567;
+    margin: 10px 0;
+}
+
+/* quote section */
+.section-three{
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 180px;
 }
